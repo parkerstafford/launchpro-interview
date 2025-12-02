@@ -54,7 +54,7 @@ export default function AgentPMDashboard() {
     { id: 4, task: "Review contractor bids", due: "Dec 6, 5:00 PM", priority: "low" }
   ];
 
-  const getStatusColor = (status) => {
+  const getStatusColor = (status: string) => {
     switch(status) {
       case "In Progress": return "bg-blue-500/20 text-blue-300 border-blue-500/30";
       case "Planning": return "bg-yellow-500/20 text-yellow-300 border-yellow-500/30";
@@ -64,7 +64,7 @@ export default function AgentPMDashboard() {
     }
   };
 
-  const getPriorityColor = (priority) => {
+  const getPriorityColor = (priority: string) => {
     switch(priority) {
       case "high": return "bg-red-500";
       case "medium": return "bg-yellow-500";
