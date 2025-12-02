@@ -340,7 +340,7 @@ export default function AIAssistantPanel() {
               </div>
             </div>
 
-            {/* Recent AI Actions */}
+            {/* Recent AI Actions Epic*/}
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden">
               <div className="p-6 border-b border-white/10">
                 <h3 className="text-lg font-bold text-white">Recent Actions</h3>
