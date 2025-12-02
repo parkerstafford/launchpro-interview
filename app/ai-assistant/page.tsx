@@ -134,7 +134,7 @@ export default function AIAssistantPanel() {
     }
   };
 
-  const toggleAutomation = (id) => {
+  const toggleAutomation = (id: number) => {
     setAutomations(automations.map(auto => 
       auto.id === id 
         ? { ...auto, status: auto.status === 'active' ? 'paused' : 'active' }
